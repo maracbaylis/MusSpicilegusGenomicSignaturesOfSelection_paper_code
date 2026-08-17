@@ -1,0 +1,9 @@
+# regex_pattern	canonical_name
+mRatBN7\.2|rattus_norvegicus|Rattus_norvegicus	rattus_norvegicus
+PAHARI_EIJ_v1\.1|mus_pahari|Mus_pahari	mus_pahari
+CAROLI_EIJ_v1\.1|CAROLI_EIJ|mus_caroli|Mus_caroli	mus_caroli
+SPRET_EiJ_v1|SPRET_EIJ_v1|mus_spretus|Mus_spretus	mus_spretus
+MUSP714|mus_spicilegus|Mus_spicilegus	mus_spicilegus
+WSB_EiJ_v1|WSB/EiJ|mus_musculus_wsbeij	mus_musculus_wsbeij
+PWK_PhJ_v1|PWK/PhJ|mus_musculus_pwkphj	mus_musculus_pwkphj
+CAST_EiJ_v1|CAST/EiJ|mus_musculus_casteij	mus_musculus_casteij

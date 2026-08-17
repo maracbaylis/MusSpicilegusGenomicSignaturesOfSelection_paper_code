@@ -1,0 +1,80 @@
+# macOS / editor noise
+.DS_Store
+._*
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local environments and caches
+.venv/
+venv/
+env/
+.conda/
+.matplotlib_cache/
+.plot_cache/
+
+# Local data, large references, and generated outputs
+data/
+inputs/
+outputs/
+results/
+assets/
+raw/
+external_data/
+external_gene_sets/raw/
+
+# Large genomics/intermediate file types
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.maf
+*.emf
+*.fa.gz
+*.fasta.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.2bit
+*.bigBed
+*.bb
+*.bigWig
+*.bw
+*.bedGraph
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Generated manuscripts/figures/tables
+*.pdf
+*.png
+*.tiff
+*.tif
+*.svg
+*.xlsx
+*.xls
+
+# Keep source documentation and intentionally tracked templates/models.
+!**/README.md
+!03_run_paml_all_foregrounds/templates/*.ctl
+!03_run_paml_all_foregrounds/trees/*.tree
+!04_run_phylop_all_foregrounds/models/*.mod

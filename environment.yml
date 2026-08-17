@@ -1,0 +1,37 @@
+name: mspic-paper
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - openpyxl
+  - matplotlib
+  - seaborn
+  - requests
+  - biopython
+  - pillow
+  - certifi
+  # R/Bioconductor package versions used for the manuscript are recorded in SOFTWARE_VERSIONS.md. They are not pinned here because older Bioconductor builds are not consistently available from Conda across platforms.
+
+  # Optional heavy dependencies for Enformer predictions and specialized figures.
+  # Install only when running the corresponding modules:
+  # - tensorflow=2.21.0
+  # - tensorflow-hub=0.16.1
+  # - brainrender
+  # - brainglobe-atlasapi
+
+  # External command-line tools used by the manuscript workflow but not pinned
+  # here because installations vary by platform:
+  # - PAML/codeml 4.10.7
+  # - PHAST/phyloP/phyloFit 1.5
+  # - MAFFT 7.526
+  # - PAL2NAL 14
+  # - Liftoff 1.6.3
+  # - minimap2 2.28
+  # - HTSeq 2.0.3
+  # - Ensembl Compara emf2maf.pl

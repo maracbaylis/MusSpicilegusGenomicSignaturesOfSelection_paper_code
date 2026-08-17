@@ -1,0 +1,17 @@
+pandas
+numpy
+scipy
+statsmodels
+openpyxl
+matplotlib
+seaborn
+requests
+biopython
+pillow
+certifi
+
+# Optional, needed only for specific heavy analyses/figures:
+# tensorflow
+# tensorflow-hub
+# brainrender
+# brainglobe-atlasapi
